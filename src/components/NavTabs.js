@@ -44,6 +44,17 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+
+      <li className="nav-item">
+        <a
+          href="#cv"
+
+          onClick={() => handlePageChange('CV')}
+          className={currentPage === 'CV' ? 'nav-link active' : 'nav-link'}
+        >
+          CV
+        </a>
+      </li>
     </ul>
   );
 }
