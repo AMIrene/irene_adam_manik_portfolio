@@ -1,9 +1,19 @@
+html,
 body {
-    background: #F7BCB6;
-  }
+    
+    min-height: 100vh;
+    padding: 0;
 
-  .skills {
+  }
+  .skills{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .codingskills {
     padding-top: 40px;
+    justify-content: center;
     
   }
 
@@ -15,6 +25,7 @@ body {
     
       display: flex;
       justify-content: center;
+      text-align: center;
       padding-top: 10px;
     }
     .codingskills{
@@ -23,6 +34,7 @@ body {
       justify-content: center;
     }
 
+  
 
     
 }
