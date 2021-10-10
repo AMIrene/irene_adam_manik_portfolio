@@ -16,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
       <Navbar.Brand href="#home"
         onClick={() => handlePageChange('Home')}
-        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}> <img src={logo}/>Irene Adam Manik</Navbar.Brand>
+        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}> <img src={logo} alt="logo"/>Home</Navbar.Brand>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

@@ -1,17 +1,22 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../styles/section.css';
+import { Container } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
+
+
+
+
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <Container className="skills d-flex justify-content-center">
+      <Row>
+      <Col className="codingskills" sm>HTML</Col>
+    <Col className="codingskills" sm>CSS</Col>
+    <Col className="codingskills" sm>JavaScript</Col>
+    </Row>
+  </Container>
   );
 }

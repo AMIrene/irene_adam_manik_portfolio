@@ -1,0 +1,64 @@
+body {
+    background: #F7BCB6;
+  }
+
+  .skills {
+    padding-top: 40px;
+    
+  }
+
+  
+
+  @media screen and (max-width : 576px) {
+  
+    .skills{
+    
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+    }
+    .codingskills{
+    
+      display: flex;
+      justify-content: center;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 810px) {
+
+  .skills{
+    
+    display: flex;
+    justify-content: center;
+  }
+  .codingskills{
+    
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  
+}
+  
+
+  @media screen and (min-width: 811px) and (max-width: 1690px) {
+    .skills{
+    
+      display: flex;
+      justify-content: center;
+    }
+    .codingskills{
+    
+      display: flex;
+      justify-content: center;
+    }
+
+
+
+    
+}

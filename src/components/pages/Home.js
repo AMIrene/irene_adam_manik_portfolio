@@ -1,21 +1,45 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../styles/home.css';
+import banner from '../../components/img/iambanner3.png';
+
+
+const styles = {
+  image: {
+    position: 'fixed',
+    backgroundSize: 'cover',
+    minWidth: '100%',
+    minHeight: '75vh',
+    zIndex: '-5'
+  },
+  herotext: {
+    fontSize: '50px',
+    color: 'white',
+    padding: '200px 0 0 40px',
+    
+  },
+
+  subtext: {
+    fontSize: '35px',
+    color: 'white',
+    padding: '40px',
+    
+  },
+
+
+};
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+   
+    <div >
+      <img className="banner" style={styles.image} src={banner}></img>
+  
+      <h1 className="hero-text" style={styles.herotext} >Irene Adam Manik</h1>
+   
+      <h2 className="hero-text" style={styles.subtext} >Full-Stack Web Developer</h2>
+
     </div>
+   
   );
 }
