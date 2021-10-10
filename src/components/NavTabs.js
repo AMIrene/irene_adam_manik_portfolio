@@ -3,9 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
 import logo from '../components/img/iamlogo.png';
 
+const styles = {
+  navbar: {
+    background: "#03071E",
+ 
+  },
+           
+}
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar style={styles.navbar} variant="dark" expand="lg">
 
       <Navbar.Brand href="#home"
         onClick={() => handlePageChange('Home')}
