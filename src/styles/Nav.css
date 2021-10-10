@@ -1,0 +1,14 @@
+.nav {
+    background: #03071E;
+    height: 60px;
+    padding-top: 5px;
+  }
+  
+  .nav-link{
+    background-color: #03071E;
+    font-size: 1.0rem;
+    text-decoration: none;
+   
+    
+  }
+  
