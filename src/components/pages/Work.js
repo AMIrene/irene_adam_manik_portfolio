@@ -10,6 +10,7 @@ import { FaGithub } from 'react-icons/fa';
 
 
 
+
 export default function Work() {
 
   
@@ -23,8 +24,9 @@ export default function Work() {
   <Card.Body>
     <Card.Title>BeeStrong: Fitness App</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+                  A fitness app for instructors and trainees.
+                  <br />
+                  <FaGithub/>
     </Card.Text>
    
   </Card.Body>
@@ -50,8 +52,9 @@ export default function Work() {
   <Card.Body>
     <Card.Title>Password Generator</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+                  Create a password to your specification.
+                  <br />
+                  <FaGithub/>
     </Card.Text>
    
   </Card.Body>
@@ -68,8 +71,9 @@ export default function Work() {
   <Card.Body>
     <Card.Title>Note Taker</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+                  A simple note taker app.
+                  <br />
+                  <FaGithub/>
     </Card.Text>
    
   </Card.Body>
@@ -81,8 +85,9 @@ export default function Work() {
   <Card.Body>
     <Card.Title>Budget Tracker</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+                  Budget when online and offline.
+                  <br />
+                  <FaGithub/>
     </Card.Text>
    
   </Card.Body>
@@ -94,8 +99,9 @@ export default function Work() {
   <Card.Body>
     <Card.Title>Day Scheduler</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+                  Plan your day or week for the year.
+                  <br />
+                  <FaGithub/>
     </Card.Text>
    
   </Card.Body>
