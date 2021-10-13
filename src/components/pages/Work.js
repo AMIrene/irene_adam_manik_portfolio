@@ -6,10 +6,13 @@ import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import '../../styles/section.css';
+import { FaGithub } from 'react-icons/fa';
 
 
 
-export default function Blog() {
+export default function Work() {
+
+  
   return (
     <div>
  <Container >
@@ -33,8 +36,9 @@ export default function Blog() {
   <Card.Body>
     <Card.Title>ChopNChange: Recipe App</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+                  Find recipes with ingredients you have on hand.
+                  <br/>
+                  <FaGithub/>
     </Card.Text>
    
   </Card.Body>
