@@ -1,22 +1,62 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+
+
+const styles = {
+  formLabel: {
+    color: '#03071E',
+    fontSize: '1.1em',
+    fontWeight: 'bold',
+    margin: '10px 0px 10px',
+  },
+  formWrapper: {
+    marginTop: '60px',
+    display: 'flex',
+    justifyContent: 'center',
+  }
+
+};
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    
+   <Container style={styles.formWrapper}>
+     <div style={{ display: 'block', 
+                  width: 700, 
+      padding: 30,
+    }}>
+      <h4>Get in touch! Leave a message.</h4>
+      <br />
+ 
+      <Form>
+      <Form.Group>
+          <Form.Label style={styles.formLabel}>Enter your full name:</Form.Label>
+          <Form.Control type="text" 
+            placeholder="Enter your full name"
+            required="required"/>
+        </Form.Group>
+        <Form.Group>
+          <Form.Label style={styles.formLabel}>Enter your email address:</Form.Label>
+          <Form.Control type="email" 
+            placeholder="Enter your your email address"
+            required="required"/>
+        </Form.Group>
+        <Form.Group>
+          <Form.Label style={styles.formLabel}>Enter your message:</Form.Label>
+          <Form.Control type="text" placeholder="Enter your message"
+           required="required"/>
+        </Form.Group>
+        <br/>
+        <Button style={{backgroundColor:'#03071E', border: 'none'}}variant="primary" type="submit">
+           Click here to submit form
+        </Button>
+        </Form>
+     
+      </div>
+      </Container>
   );
 }
+
