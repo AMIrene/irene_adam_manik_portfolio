@@ -28,7 +28,7 @@ export default function Contact() {
                   width: 700, 
       padding: 30,
     }}>
-      <h4>Get in touch! Leave a message.</h4>
+      <h2>Get in touch! Leave a message.</h2>
       <br />
  
       <Form>
@@ -51,7 +51,7 @@ export default function Contact() {
         </Form.Group>
         <br/>
         <Button style={{backgroundColor:'#03071E', border: 'none'}}variant="primary" type="submit">
-           Click here to submit form
+           Submit
         </Button>
         </Form>
      
