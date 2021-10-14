@@ -21,21 +21,20 @@ body {
 
 .skills{
     
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-  }
-  .codingskills {
-    padding-top: 40px;
-    justify-content: center;
-    
-  }
-
-
-
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.codingskills {
+  padding-top: 40px;
+  justify-content: center;
   
+}
 
-  @media screen and (max-width : 576px) {
+
+
+
+   @media screen and (max-width : 576px) {
   
     .skills{
     
@@ -49,12 +48,7 @@ body {
       display: flex;
       justify-content: center;
     }
-
-  
-
-    
-}
-
+ } 
 @media screen and (min-width: 576px) and (max-width: 810px) {
 
   .skills{
@@ -89,4 +83,4 @@ body {
 
 
     
-}
+} 
