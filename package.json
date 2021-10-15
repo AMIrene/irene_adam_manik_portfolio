@@ -2,7 +2,7 @@
   "name": "portfolio-iam",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AMIrene/github.io/irene_adam_manik_portfolio",
+  "homepage": "https://amirene.github.io/irene_adam_manik_portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
