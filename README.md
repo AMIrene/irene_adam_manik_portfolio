@@ -56,6 +56,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ### Deployed page link
 
+[Go to deployed page](https://amirene.github.io/irene_adam_manik_portfolio/)
 
 ## Acknowledgements
 
