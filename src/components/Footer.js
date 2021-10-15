@@ -33,7 +33,10 @@ function Footer() {
             <Nav.Link style={styles.nav} href="mailto: irene.webdev@gmail.com" target="_blank">Email</Nav.Link>
             
   <Nav.Link style={styles.nav} href="https://www.linkedin.com/in/irene-adam-manik-978a3750"  target="_blank">LinkedIn</Nav.Link>
-  <Nav.Link style={styles.nav} href="https://github.com/AMIrene" target="_blank">Github</Nav.Link>
+            <Nav.Link style={styles.nav} href="https://github.com/AMIrene" target="_blank">Github</Nav.Link>
+            <Nav.Link style={styles.nav} href="https://stackoverflow.com/cv/ireneam" target="_blank">Stack Overflow</Nav.Link>
+            
+            
   
   </Nav>
 
