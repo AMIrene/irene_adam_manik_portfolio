@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/github.io/irene_adam_manik_portfolio/static/css/main.6ddaabdd.chunk.css",
+    "main.js": "/github.io/irene_adam_manik_portfolio/static/js/main.2dcf160e.chunk.js",
+    "main.js.map": "/github.io/irene_adam_manik_portfolio/static/js/main.2dcf160e.chunk.js.map",
+    "runtime-main.js": "/github.io/irene_adam_manik_portfolio/static/js/runtime-main.4f54fa9d.js",
+    "runtime-main.js.map": "/github.io/irene_adam_manik_portfolio/static/js/runtime-main.4f54fa9d.js.map",
+    "static/css/2.67d44514.chunk.css": "/github.io/irene_adam_manik_portfolio/static/css/2.67d44514.chunk.css",
+    "static/js/2.eca1b18a.chunk.js": "/github.io/irene_adam_manik_portfolio/static/js/2.eca1b18a.chunk.js",
+    "static/js/2.eca1b18a.chunk.js.map": "/github.io/irene_adam_manik_portfolio/static/js/2.eca1b18a.chunk.js.map",
+    "index.html": "/github.io/irene_adam_manik_portfolio/index.html",
+    "static/css/2.67d44514.chunk.css.map": "/github.io/irene_adam_manik_portfolio/static/css/2.67d44514.chunk.css.map",
+    "static/css/main.6ddaabdd.chunk.css.map": "/github.io/irene_adam_manik_portfolio/static/css/main.6ddaabdd.chunk.css.map",
+    "static/js/2.eca1b18a.chunk.js.LICENSE.txt": "/github.io/irene_adam_manik_portfolio/static/js/2.eca1b18a.chunk.js.LICENSE.txt",
+    "static/media/iambanner3.e8f5c3ce.png": "/github.io/irene_adam_manik_portfolio/static/media/iambanner3.e8f5c3ce.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f54fa9d.js",
+    "static/css/2.67d44514.chunk.css",
+    "static/js/2.eca1b18a.chunk.js",
+    "static/css/main.6ddaabdd.chunk.css",
+    "static/js/main.2dcf160e.chunk.js"
+  ]
+}
